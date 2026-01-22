@@ -1866,6 +1866,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
+                "image":"",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fit-content",
@@ -2166,6 +2167,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
+                "image":"",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fit-content",
@@ -2270,6 +2272,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
+                "image":"",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fit-content",
