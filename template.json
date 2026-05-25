@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
     "sections": {
         "main": {
@@ -144,7 +153,7 @@
                                         "height": "fit",
                                         "custom_height": 100,
                                         "inherit_color_scheme": false,
-                                        "color_scheme": "scheme-7d211202-9b27-4015-8a9f-f07b41522b3c",
+                                        "color_scheme": "scheme-3",
                                         "background_media": "none",
                                         "video_position": "cover",
                                         "background_image_position": "cover",
@@ -217,7 +226,7 @@
                                 "height": "fit",
                                 "custom_height": 100,
                                 "inherit_color_scheme": false,
-                                "color_scheme": "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7",
+                                "color_scheme": "scheme-5",
                                 "background_media": "none",
                                 "video_position": "cover",
                                 "background_image_position": "cover",
@@ -297,7 +306,7 @@
                                                 "height": "fit",
                                                 "custom_height": 100,
                                                 "inherit_color_scheme": false,
-                                                "color_scheme": "scheme-7d211202-9b27-4015-8a9f-f07b41522b3c",
+                                                "color_scheme": "scheme-3",
                                                 "background_media": "none",
                                                 "video_position": "cover",
                                                 "background_image_position": "cover",
@@ -425,7 +434,7 @@
                                                 "height": "fit",
                                                 "custom_height": 100,
                                                 "inherit_color_scheme": false,
-                                                "color_scheme": "scheme-7d211202-9b27-4015-8a9f-f07b41522b3c",
+                                                "color_scheme": "scheme-3",
                                                 "background_media": "none",
                                                 "video_position": "cover",
                                                 "background_image_position": "cover",
@@ -553,7 +562,7 @@
                                                 "height": "fit",
                                                 "custom_height": 100,
                                                 "inherit_color_scheme": false,
-                                                "color_scheme": "scheme-7d211202-9b27-4015-8a9f-f07b41522b3c",
+                                                "color_scheme": "scheme-3",
                                                 "background_media": "none",
                                                 "video_position": "cover",
                                                 "background_image_position": "cover",
@@ -681,7 +690,7 @@
                                                 "height": "fit",
                                                 "custom_height": 100,
                                                 "inherit_color_scheme": false,
-                                                "color_scheme": "scheme-7d211202-9b27-4015-8a9f-f07b41522b3c",
+                                                "color_scheme": "scheme-3",
                                                 "background_media": "none",
                                                 "video_position": "cover",
                                                 "background_image_position": "cover",
@@ -857,8 +866,8 @@
                                 "border_width": 1,
                                 "border_opacity": 100,
                                 "border_radius": 8,
-                                "toggle_overlay": true,
-                                "overlay_color": "#fafafa",
+                                "toggle_overlay": false,
+                                "overlay_color": "#00000026",
                                 "overlay_style": "solid",
                                 "gradient_direction": "to top",
                                 "link": "",
@@ -936,7 +945,7 @@
                                                 "letter_spacing": "normal",
                                                 "case": "none",
                                                 "wrap": "pretty",
-                                                "color": "var(--color-foreground-heading)",
+                                                "color": "var(--color-foreground)",
                                                 "background": false,
                                                 "background_color": "#00000026",
                                                 "corner_radius": 0,
@@ -1185,7 +1194,7 @@
                                         "height": "fit",
                                         "custom_height": 100,
                                         "inherit_color_scheme": false,
-                                        "color_scheme": "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7",
+                                        "color_scheme": "scheme-5",
                                         "background_media": "none",
                                         "video_position": "cover",
                                         "background_image_position": "cover",
@@ -2755,7 +2764,7 @@
                                                 "height": "custom",
                                                 "custom_height": 100,
                                                 "inherit_color_scheme": false,
-                                                "color_scheme": "scheme-7d211202-9b27-4015-8a9f-f07b41522b3c",
+                                                "color_scheme": "scheme-3",
                                                 "background_media": "none",
                                                 "video_position": "cover",
                                                 "background_image_position": "cover",
@@ -3010,7 +3019,7 @@
                                                 "height": "custom",
                                                 "custom_height": 100,
                                                 "inherit_color_scheme": false,
-                                                "color_scheme": "scheme-7d211202-9b27-4015-8a9f-f07b41522b3c",
+                                                "color_scheme": "scheme-3",
                                                 "background_media": "none",
                                                 "video_position": "cover",
                                                 "background_image_position": "cover",
@@ -3265,7 +3274,7 @@
                                                 "height": "custom",
                                                 "custom_height": 100,
                                                 "inherit_color_scheme": false,
-                                                "color_scheme": "scheme-7d211202-9b27-4015-8a9f-f07b41522b3c",
+                                                "color_scheme": "scheme-3",
                                                 "background_media": "none",
                                                 "video_position": "cover",
                                                 "background_image_position": "cover",
@@ -3520,7 +3529,7 @@
                                                 "height": "custom",
                                                 "custom_height": 100,
                                                 "inherit_color_scheme": false,
-                                                "color_scheme": "scheme-7d211202-9b27-4015-8a9f-f07b41522b3c",
+                                                "color_scheme": "scheme-3",
                                                 "background_media": "none",
                                                 "video_position": "cover",
                                                 "background_image_position": "cover",
