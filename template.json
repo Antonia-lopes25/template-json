@@ -1,21 +1,4 @@
-/*
- * ============================================================
- * TEMPLATE — MARQUEE REESTRUTURADO (TESTE)
- * ============================================================
- * O marquee foi convertido de:
- *   section type="marquee"  (que ignora overlay hex)
- * Para:
- *   section type="section" + block type="_marquee" interno
- *   (a section padrao ACEITA overlay hex -> IA controla)
- *
- * Settings preservados: movement_direction, gap_between_elements,
- * padding e os 3 blocos de texto continuam exatamente iguais.
- *
- * IMPORTANTE: testar publicacao. Se o _marquee block nao for
- * reconhecido pelo Horizon nessa estrutura, voltar ao template
- * anterior. O resto do template nao foi alterado.
- * ============================================================
- */
+
 {
   "sections": {
     "main": {
