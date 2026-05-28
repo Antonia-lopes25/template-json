@@ -1,3 +1,19 @@
+/*
+ * ============================================================
+ * TEMPLATE — IA DEFINE AS CORES (HEX) — VERSAO FINAL
+ * ============================================================
+ * overlay_color / background_color = {{BG_*}}  (fundos)
+ * color = {{TEXT_*}}  | color_scheme = scheme-N (base p/ icones)
+ *
+ * MARQUEE: fundo via overlay_color={{BG_MARQUEE}} + toggle_overlay:true
+ * (o overlay FUNCIONA no marquee; a IA controla a cor por aqui).
+ * Textos do marquee usam preset "custom" (respeita {{TEXT_MARQUEE}}).
+ *
+ * Titulos: presets de heading (h3/h5) p/ respeitar "color" sem style.
+ * O codigo n8n troca {{BG_*}}/{{TEXT_*}} pelos hex do color_palette.
+ * Compativel com Shopify Horizon.
+ * ============================================================
+ */
 {
   "sections": {
     "main": {
@@ -1891,7 +1907,7 @@
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "rte",
+            "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
@@ -1917,7 +1933,7 @@
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "rte",
+            "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
