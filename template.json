@@ -1974,7 +1974,7 @@
         "padding-block-end": 16,
         "gap_between_elements": 64,
         "toggle_overlay": true,
-        "overlay_color": "{{BG_MARQUEE}}",
+        "overlay_color": "{{TEXT_MARQUEE}}",
         "overlay_style": "solid"
       }
     },
