@@ -1,18 +1,19 @@
 /*
  * ============================================================
- * TEMPLATE — IA DEFINE AS CORES (HEX) — VERSAO FINAL
+ * TEMPLATE — MARQUEE REESTRUTURADO (TESTE)
  * ============================================================
- * overlay_color / background_color = {{BG_*}}  (fundos)
- * color = {{TEXT_*}}  | color_scheme = scheme-N (base p/ icones)
+ * O marquee foi convertido de:
+ *   section type="marquee"  (que ignora overlay hex)
+ * Para:
+ *   section type="section" + block type="_marquee" interno
+ *   (a section padrao ACEITA overlay hex -> IA controla)
  *
- * MARQUEE (caso especial): a cor do fundo vai no color_scheme
- * (= {{BG_MARQUEE}}), pois o marquee aceita hex nesse campo.
- * overlay_color tambem = {{BG_MARQUEE}} (reforco). Textos = custom.
+ * Settings preservados: movement_direction, gap_between_elements,
+ * padding e os 3 blocos de texto continuam exatamente iguais.
  *
- * Titulos: presets de heading (h3/h5) p/ respeitar "color" sem style.
- * O codigo n8n troca {{BG_*}}/{{TEXT_*}} pelos hex do color_palette
- * (inclusive dentro do color_scheme do marquee). Nada muda no codigo.
- * Compativel com Shopify Horizon.
+ * IMPORTANTE: testar publicacao. Se o _marquee block nao for
+ * reconhecido pelo Horizon nessa estrutura, voltar ao template
+ * anterior. O resto do template nao foi alterado.
  * ============================================================
  */
 {
@@ -1898,101 +1899,113 @@
       }
     },
     "marquee_jMrcQw": {
-      "type": "marquee",
+      "type": "section",
       "blocks": {
-        "text_UgpQJz": {
-          "type": "text",
-          "name": "t:names.text",
+        "marquee_inner": {
+          "type": "_marquee",
           "settings": {
-            "text": "<p><strong>[REPLACE: Ticker benefit 3 - e.g. Over 50,000 Happy Customers]</strong></p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "custom",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "{{TEXT_MARQUEE}}",
-            "background": false,
-            "background_color": "{{BG_MARQUEE}}",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "movement_direction": "normal",
+            "gap_between_elements": 64
           },
-          "blocks": {}
-        },
-        "text_Ke9k6D": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p><strong>[REPLACE: Ticker benefit 2 - e.g. 30-Day Money Back Guarantee]</strong></p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "custom",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "{{TEXT_MARQUEE}}",
-            "background": false,
-            "background_color": "{{BG_MARQUEE}}",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+          "blocks": {
+            "text_UgpQJz": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p><strong>[REPLACE: Ticker benefit 3 - e.g. Over 50,000 Happy Customers]</strong></p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "custom",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "{{TEXT_MARQUEE}}",
+                "background": false,
+                "background_color": "{{BG_MARQUEE}}",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_Ke9k6D": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p><strong>[REPLACE: Ticker benefit 2 - e.g. 30-Day Money Back Guarantee]</strong></p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "custom",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "{{TEXT_MARQUEE}}",
+                "background": false,
+                "background_color": "{{BG_MARQUEE}}",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_3X86bq": {
+              "type": "text",
+              "settings": {
+                "text": "<p><strong>[REPLACE: Ticker benefit 1 - e.g. Free Shipping on All Orders]</strong></p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "custom",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "tight",
+                "letter_spacing": "tight",
+                "case": "none",
+                "wrap": "nowrap",
+                "color": "{{TEXT_MARQUEE}}",
+                "background": false,
+                "background_color": "{{BG_MARQUEE}}",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
           },
-          "blocks": {}
-        },
-        "text_3X86bq": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>[REPLACE: Ticker benefit 1 - e.g. Free Shipping on All Orders]</strong></p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "custom",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "tight",
-            "letter_spacing": "tight",
-            "case": "none",
-            "wrap": "nowrap",
-            "color": "{{TEXT_MARQUEE}}",
-            "background": false,
-            "background_color": "{{BG_MARQUEE}}",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
+          "block_order": [
+            "text_UgpQJz",
+            "text_Ke9k6D",
+            "text_3X86bq"
+          ]
         }
       },
       "block_order": [
-        "text_UgpQJz",
-        "text_Ke9k6D",
-        "text_3X86bq"
+        "marquee_inner"
       ],
       "name": "t:names.marquee_section",
       "settings": {
-        "movement_direction": "normal",
-        "color_scheme": "{{BG_MARQUEE}}",
-        "padding-block-start": 16,
-        "padding-block-end": 16,
-        "gap_between_elements": 64,
+        "content_direction": "row",
+        "section_width": "page-width",
+        "color_scheme": "scheme-4",
         "toggle_overlay": true,
         "overlay_color": "{{BG_MARQUEE}}",
-        "overlay_style": "solid"
+        "overlay_style": "solid",
+        "padding-block-start": 16,
+        "padding-block-end": 16
       }
     },
     "section_VnK7jk": {
