@@ -1,18 +1,3 @@
-/*
- * ============================================================
- * TEMPLATE — IA DEFINE AS CORES (HEX) — TODOS OS CAMPOS PREENCHIDOS
- * ============================================================
- * overlay_color   = {{BG_*}}    (fundo; toggle_overlay no estado original)
- * background_color = {{BG_*}}    (fundo de texto; background no estado original)
- * color           = {{TEXT_*}}  (texto, casado com o fundo do bloco)
- * color_scheme    = scheme-N    (base p/ icones/botoes; alinhado ao papel)
- *
- * 6 papeis: FUNDO_PRINCIPAL, ALTERNADO, DESTAQUE, MARQUEE, ALERTA, NEUTRO
- * O codigo n8n troca {{BG_*}}/{{TEXT_*}} pelos hex do color_palette da IA.
- * Toggles preservados: o visual atual nao muda; campos ficam prontos.
- * Compativel com Shopify Horizon.
- * ============================================================
- */
 {
   "sections": {
     "main": {
