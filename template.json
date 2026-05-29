@@ -1968,7 +1968,11 @@
         "overlay_style": "solid",
         "background": false,
         "background_color": "{{BG_FUNDO_PRINCIPAL}}"
-      }
+      },
+      "custom_css": [
+        "details, details summary { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
+        "details summary, details summary *, details > *:not(summary), details > *:not(summary) * { color: {{TEXT_FUNDO_PRINCIPAL}} !important; }"
+      ]
     },
     "marquee_jMrcQw": {
       "type": "marquee",
@@ -5818,7 +5822,10 @@
         "gradient_direction": "to top",
         "padding-block-start": 64,
         "padding-block-end": 64
-      }
+      },
+      "custom_css": [
+        "details summary, details summary *, details > *:not(summary), details > *:not(summary) * { color: {{TEXT_ALTERNADO}} !important; }"
+      ]
     }
   },
   "order": [
