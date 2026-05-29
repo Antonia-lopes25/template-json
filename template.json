@@ -1970,7 +1970,7 @@
         "background_color": "{{BG_FUNDO_PRINCIPAL}}"
       },
       "custom_css": [
-        "&, & > *, section, [class*=\"product-information\"] { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
+        "&, & > *, section, product-media-gallery, [class*=\"product-information\"], [class*=\"media-gallery\"], [class*=\"gallery\"] { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
         "details, details summary { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
         "details *, details summary * { color: {{TEXT_FUNDO_PRINCIPAL}} !important; }"
       ]
