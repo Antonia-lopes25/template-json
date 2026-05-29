@@ -229,7 +229,7 @@
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
-                "border_radius": 0,
+                "border_radius": 8,
                 "toggle_overlay": true,
                 "overlay_color": "{{BG_ALERTA}}",
                 "overlay_style": "solid",
@@ -1970,7 +1970,8 @@
         "background_color": "{{BG_FUNDO_PRINCIPAL}}"
       },
       "custom_css": [
-        "& { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
+        "&, & > div, & > section, & > .section { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
+        "section, .section, [class*=\"product-information\"] { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
         "details, details summary { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
         "details summary, details summary *, details > *:not(summary), details > *:not(summary) * { color: {{TEXT_FUNDO_PRINCIPAL}} !important; }"
       ]
