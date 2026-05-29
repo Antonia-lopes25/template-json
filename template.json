@@ -1970,6 +1970,7 @@
         "background_color": "{{BG_FUNDO_PRINCIPAL}}"
       },
       "custom_css": [
+        "& { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
         "details, details summary { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
         "details summary, details summary *, details > *:not(summary), details > *:not(summary) * { color: {{TEXT_FUNDO_PRINCIPAL}} !important; }"
       ]
