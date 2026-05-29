@@ -1,18 +1,3 @@
-/*
- * ============================================================
- * TEMPLATE — IA DEFINE AS CORES (HEX) — VERSAO FINAL
- * ============================================================
- * Tipografia: preset 'custom' (IA 100%).
- *
- * NOVA ESTRATEGIA: custom_css do main sobrescreve as variaveis
- * CSS --color-background e --color-foreground do scheme dentro
- * da section. Isso cobre gaps/paddings/elementos estruturais
- * que usam essas vars do tema.
- *
- * Combinado com background-color direto p/ elementos especificos
- * (galeria, gallery, section).
- * ============================================================
- */
 {
   "sections": {
     "main": {
