@@ -1,3 +1,16 @@
+/*
+ * ============================================================
+ * TEMPLATE — IA DEFINE AS CORES (HEX) — VERSAO FINAL
+ * ============================================================
+ * Tipografia: preset 'custom' (IA 100%).
+ *
+ * custom_css com seletores especificos do Horizon BEM:
+ *   - .product-information (container)
+ *   - [class*="product-information__"] (filhos BEM)
+ *   - product-information (web component)
+ * Inspecao confirmou: galeria usa .product-information__media
+ * ============================================================
+ */
 {
   "sections": {
     "main": {
@@ -1970,8 +1983,9 @@
         "background_color": "{{BG_FUNDO_PRINCIPAL}}"
       },
       "custom_css": [
-        "& { --color-background: {{BG_FUNDO_PRINCIPAL}}; --color-foreground: {{TEXT_FUNDO_PRINCIPAL}}; background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
-        "& > *, section, product-media-gallery, [class*=\"gallery\"] { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
+        ".product-information, [class*=\"product-information__\"], product-information { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
+        "&, & > *, section, product-media-gallery { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
+        "details, details summary { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
         "details *, details summary * { color: {{TEXT_FUNDO_PRINCIPAL}} !important; }"
       ]
     },
