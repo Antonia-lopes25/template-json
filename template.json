@@ -1970,7 +1970,7 @@
         "background_color": "{{BG_FUNDO_PRINCIPAL}}"
       },
       "custom_css": [
-        ".product-information__media { background-color: {{BG_FUNDO_PRINCIPAL}} !important; min-height: 100% !important; }",
+        ".product-information__media { background-color: {{BG_FUNDO_PRINCIPAL}} !important; align-self: stretch !important; min-height: 100% !important; }",
         ".product-information, [class*=\"product-information__\"] { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
         "details, details summary { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
         "details *, details summary * { color: {{TEXT_FUNDO_PRINCIPAL}} !important; }"
