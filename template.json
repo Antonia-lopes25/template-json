@@ -1970,9 +1970,9 @@
         "background_color": "{{BG_FUNDO_PRINCIPAL}}"
       },
       "custom_css": [
-        "&, section, details, details summary { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
-        "details *, details summary * { color: {{TEXT_FUNDO_PRINCIPAL}} !important; }",
-        "& *::before, & *::after { box-shadow: none !important; }"
+        "&, & > *, section, [class*=\"product-information\"] { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
+        "details, details summary { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
+        "details *, details summary * { color: {{TEXT_FUNDO_PRINCIPAL}} !important; }"
       ]
     },
     "marquee_jMrcQw": {
