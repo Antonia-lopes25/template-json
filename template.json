@@ -142,7 +142,7 @@
                     "horizontal_alignment_flex_direction_column": "flex-start",
                     "vertical_alignment_flex_direction_column": "center",
                     "gap": 12,
-                    "width": "fill",
+                    "width": "fit",
                     "custom_width": 100,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
@@ -156,7 +156,7 @@
                     "border": "none",
                     "border_width": 0,
                     "border_opacity": 0,
-                    "border_radius": 0,
+                    "border_radius": 8,
                     "toggle_overlay": true,
                     "overlay_color": "{{BG_DESTAQUE}}",
                     "overlay_style": "solid",
@@ -164,10 +164,10 @@
                     "link": "",
                     "open_in_new_tab": false,
                     "placeholder": "",
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
+                    "padding-block-start": 8,
+                    "padding-block-end": 8,
+                    "padding-inline-start": 20,
+                    "padding-inline-end": 20
                   },
                   "blocks": {
                     "price_7iMhmF": {
@@ -1970,10 +1970,9 @@
         "background_color": "{{BG_FUNDO_PRINCIPAL}}"
       },
       "custom_css": [
-        "&, & > div, & > section, & > .section { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
-        "section, .section, [class*=\"product-information\"] { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
-        "details, details summary { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
-        "details summary, details summary *, details > *:not(summary), details > *:not(summary) * { color: {{TEXT_FUNDO_PRINCIPAL}} !important; }"
+        "&, section, details, details summary { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
+        "details *, details summary * { color: {{TEXT_FUNDO_PRINCIPAL}} !important; }",
+        "& * { box-shadow: none !important; outline: none !important; border: none !important; }"
       ]
     },
     "marquee_jMrcQw": {
@@ -2231,7 +2230,10 @@
         "gradient_direction": "to top",
         "padding-block-start": 64,
         "padding-block-end": 64
-      }
+      },
+      "custom_css": [
+        "& * { box-shadow: none !important; outline: none !important; border: none !important; }"
+      ]
     },
     "section_iyc7Rf": {
       "type": "section",
@@ -2385,7 +2387,10 @@
         "gradient_direction": "to top",
         "padding-block-start": 64,
         "padding-block-end": 64
-      }
+      },
+      "custom_css": [
+        "& * { box-shadow: none !important; outline: none !important; border: none !important; }"
+      ]
     },
     "section_xPrATn": {
       "type": "section",
@@ -3846,7 +3851,10 @@
         "gradient_direction": "to top",
         "padding-block-start": 32,
         "padding-block-end": 32
-      }
+      },
+      "custom_css": [
+        "& * { box-shadow: none !important; outline: none !important; border: none !important; }"
+      ]
     },
     "section_6qajeN": {
       "type": "section",
@@ -4541,7 +4549,10 @@
         "gradient_direction": "to top",
         "padding-block-start": 64,
         "padding-block-end": 64
-      }
+      },
+      "custom_css": [
+        "& * { box-shadow: none !important; outline: none !important; border: none !important; }"
+      ]
     },
     "section_nABLzY": {
       "type": "section",
@@ -5572,7 +5583,10 @@
         "gradient_direction": "to top",
         "padding-block-start": 64,
         "padding-block-end": 64
-      }
+      },
+      "custom_css": [
+        "& * { box-shadow: none !important; outline: none !important; border: none !important; }"
+      ]
     },
     "section_RF8Jdt": {
       "type": "section",
@@ -5826,7 +5840,8 @@
         "padding-block-end": 64
       },
       "custom_css": [
-        "details summary, details summary *, details > *:not(summary), details > *:not(summary) * { color: {{TEXT_ALTERNADO}} !important; }"
+        "details summary, details summary *, details > *:not(summary), details > *:not(summary) * { color: {{TEXT_ALTERNADO}} !important; }",
+        "& * { box-shadow: none !important; outline: none !important; border: none !important; }"
       ]
     }
   },
