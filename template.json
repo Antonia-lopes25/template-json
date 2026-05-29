@@ -1981,7 +1981,7 @@
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "rte",
+            "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
@@ -2007,7 +2007,7 @@
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "rte",
+            "type_preset": "custom",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
@@ -2070,7 +2070,7 @@
       "custom_css": [
         "& { background-color: {{BG_MARQUEE}} !important; }",
         "marquee-component, .marquee, .section { background-color: {{BG_MARQUEE}} !important; }",
-        "& p, & h1, & h2, & h3, & h4, & h5, & h6, & strong { color: {{TEXT_MARQUEE}} !important; }"
+        "& *, marquee-component *, .marquee *, .section * { color: {{TEXT_MARQUEE}} !important; }"
       ]
     },
     "section_VnK7jk": {
