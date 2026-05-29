@@ -2044,14 +2044,19 @@
       "name": "t:names.marquee_section",
       "settings": {
         "movement_direction": "normal",
-        "color_scheme": "{{BG_MARQUEE}}",
+        "color_scheme": "scheme-4",
         "padding-block-start": 16,
         "padding-block-end": 16,
         "gap_between_elements": 64,
-        "toggle_overlay": true,
-        "overlay_color": "{{BG_MARQUEE}}",
+        "toggle_overlay": false,
+        "overlay_color": "#00000000",
         "overlay_style": "solid"
-      }
+      },
+      "custom_css": [
+        "& { background-color: {{BG_MARQUEE}} !important; }",
+        "marquee-component, .marquee, .section { background-color: {{BG_MARQUEE}} !important; }",
+        "& p, & h1, & h2, & h3, & h4, & h5, & h6, & strong { color: {{TEXT_MARQUEE}} !important; }"
+      ]
     },
     "section_VnK7jk": {
       "type": "section",
