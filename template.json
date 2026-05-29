@@ -1,3 +1,22 @@
+/*
+ * ============================================================
+ * TEMPLATE — IA DEFINE AS CORES (HEX) — VERSAO FINAL
+ * ============================================================
+ * Cores: overlay_color/background_color = {{BG_*}}, color = {{TEXT_*}}
+ *
+ * Badges (Frete/Compra Segura/Suporte): overlay LIGADO no
+ * container (group_FHL6em) com {{BG_FUNDO_PRINCIPAL}}. Os 3
+ * textos: paragraph -> custom para respeitar color em qualquer
+ * paleta da IA.
+ *
+ * FIX icones substituidos: 4 check beneficios, 4 check Ours,
+ * 1 estrela Stock Message. Outros icones (truck/lock/return/
+ * silhouette/check_box do Secure) seguem foreground do scheme,
+ * funcionam bem em paletas com fundo principal claro.
+ *
+ * MARQUEE: usa scheme-4 da loja (custom_css em teste separado).
+ * ============================================================
+ */
 {
   "sections": {
     "main": {
@@ -917,7 +936,7 @@
                 "border_width": 1,
                 "border_opacity": 100,
                 "border_radius": 8,
-                "toggle_overlay": false,
+                "toggle_overlay": true,
                 "overlay_color": "{{BG_FUNDO_PRINCIPAL}}",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
@@ -989,7 +1008,7 @@
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
-                        "type_preset": "paragraph",
+                        "type_preset": "custom",
                         "font": "var(--font-body--family)",
                         "font_size": "1.125rem",
                         "line_height": "normal",
@@ -1072,7 +1091,7 @@
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
-                        "type_preset": "paragraph",
+                        "type_preset": "custom",
                         "font": "var(--font-body--family)",
                         "font_size": "1.125rem",
                         "line_height": "normal",
@@ -1155,7 +1174,7 @@
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
-                        "type_preset": "paragraph",
+                        "type_preset": "custom",
                         "font": "var(--font-body--family)",
                         "font_size": "1.125rem",
                         "line_height": "normal",
@@ -1270,7 +1289,7 @@
                       "type": "text",
                       "name": "Alerta icon (custom)",
                       "settings": {
-                        "text": "<p>⚠</p>",
+                        "text": "<p>✦</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -2044,19 +2063,14 @@
       "name": "t:names.marquee_section",
       "settings": {
         "movement_direction": "normal",
-        "color_scheme": "scheme-4",
+        "color_scheme": "{{BG_MARQUEE}}",
         "padding-block-start": 16,
         "padding-block-end": 16,
         "gap_between_elements": 64,
-        "toggle_overlay": false,
-        "overlay_color": "#00000000",
+        "toggle_overlay": true,
+        "overlay_color": "{{BG_MARQUEE}}",
         "overlay_style": "solid"
-      },
-      "custom_css": [
-        "& { background-color: {{BG_MARQUEE}} !important; }",
-        "marquee-component, .marquee, .section { background-color: {{BG_MARQUEE}} !important; }",
-        "& p, & h1, & h2, & h3, & h4, & h5, & h6, & strong { color: {{TEXT_MARQUEE}} !important; }"
-      ]
+      }
     },
     "section_VnK7jk": {
       "type": "section",
