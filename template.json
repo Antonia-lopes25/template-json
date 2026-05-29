@@ -1,22 +1,3 @@
-/*
- * ============================================================
- * TEMPLATE — IA DEFINE AS CORES (HEX) — VERSAO FINAL
- * ============================================================
- * Cores: overlay_color/background_color = {{BG_*}}, color = {{TEXT_*}}
- *
- * Badges (Frete/Compra Segura/Suporte): overlay LIGADO no
- * container (group_FHL6em) com {{BG_FUNDO_PRINCIPAL}}. Os 3
- * textos: paragraph -> custom para respeitar color em qualquer
- * paleta da IA.
- *
- * FIX icones substituidos: 4 check beneficios, 4 check Ours,
- * 1 estrela Stock Message. Outros icones (truck/lock/return/
- * silhouette/check_box do Secure) seguem foreground do scheme,
- * funcionam bem em paletas com fundo principal claro.
- *
- * MARQUEE: usa scheme-4 da loja (custom_css em teste separado).
- * ============================================================
- */
 {
   "sections": {
     "main": {
