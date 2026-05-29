@@ -90,7 +90,7 @@
                 "border": "none",
                 "border_width": 0,
                 "border_opacity": 0,
-                "border_radius": 0,
+                "border_radius": 8,
                 "toggle_overlay": true,
                 "overlay_color": "{{BG_FUNDO_PRINCIPAL}}",
                 "overlay_style": "solid",
@@ -1972,7 +1972,7 @@
       "custom_css": [
         "&, section, details, details summary { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
         "details *, details summary * { color: {{TEXT_FUNDO_PRINCIPAL}} !important; }",
-        "& * { box-shadow: none !important; outline: none !important; border: none !important; }"
+        "& *::before, & *::after { box-shadow: none !important; }"
       ]
     },
     "marquee_jMrcQw": {
@@ -2230,10 +2230,7 @@
         "gradient_direction": "to top",
         "padding-block-start": 64,
         "padding-block-end": 64
-      },
-      "custom_css": [
-        "& * { box-shadow: none !important; outline: none !important; border: none !important; }"
-      ]
+      }
     },
     "section_iyc7Rf": {
       "type": "section",
@@ -2387,10 +2384,7 @@
         "gradient_direction": "to top",
         "padding-block-start": 64,
         "padding-block-end": 64
-      },
-      "custom_css": [
-        "& * { box-shadow: none !important; outline: none !important; border: none !important; }"
-      ]
+      }
     },
     "section_xPrATn": {
       "type": "section",
@@ -3851,10 +3845,7 @@
         "gradient_direction": "to top",
         "padding-block-start": 32,
         "padding-block-end": 32
-      },
-      "custom_css": [
-        "& * { box-shadow: none !important; outline: none !important; border: none !important; }"
-      ]
+      }
     },
     "section_6qajeN": {
       "type": "section",
@@ -4549,10 +4540,7 @@
         "gradient_direction": "to top",
         "padding-block-start": 64,
         "padding-block-end": 64
-      },
-      "custom_css": [
-        "& * { box-shadow: none !important; outline: none !important; border: none !important; }"
-      ]
+      }
     },
     "section_nABLzY": {
       "type": "section",
@@ -5583,10 +5571,7 @@
         "gradient_direction": "to top",
         "padding-block-start": 64,
         "padding-block-end": 64
-      },
-      "custom_css": [
-        "& * { box-shadow: none !important; outline: none !important; border: none !important; }"
-      ]
+      }
     },
     "section_RF8Jdt": {
       "type": "section",
@@ -5840,8 +5825,7 @@
         "padding-block-end": 64
       },
       "custom_css": [
-        "details summary, details summary *, details > *:not(summary), details > *:not(summary) * { color: {{TEXT_ALTERNADO}} !important; }",
-        "& * { box-shadow: none !important; outline: none !important; border: none !important; }"
+        "details summary, details summary *, details > *:not(summary), details > *:not(summary) * { color: {{TEXT_ALTERNADO}} !important; }"
       ]
     }
   },
