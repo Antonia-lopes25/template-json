@@ -319,13 +319,28 @@
                       },
                       "blocks": {
                         "icon_rkeVLJ": {
-                          "type": "icon",
-                          "name": "t:names.icon",
+                          "type": "text",
+                          "name": "Check icon 1 (custom)",
                           "settings": {
-                            "icon": "check_box",
-                            "width": 16,
-                            "link": "",
-                            "open_in_new_tab": false
+                            "text": "<p>✓</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "custom",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1.125rem",
+                            "line_height": "tight",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "{{TEXT_ALERTA}}",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
                           },
                           "blocks": {}
                         }
@@ -447,13 +462,28 @@
                       },
                       "blocks": {
                         "icon_atF9DT": {
-                          "type": "icon",
-                          "name": "t:names.icon",
+                          "type": "text",
+                          "name": "Check icon 2 (custom)",
                           "settings": {
-                            "icon": "check_box",
-                            "width": 16,
-                            "link": "",
-                            "open_in_new_tab": false
+                            "text": "<p>✓</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "custom",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1.125rem",
+                            "line_height": "tight",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "{{TEXT_ALERTA}}",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
                           },
                           "blocks": {}
                         }
@@ -575,13 +605,28 @@
                       },
                       "blocks": {
                         "icon_X8dawL": {
-                          "type": "icon",
-                          "name": "t:names.icon",
+                          "type": "text",
+                          "name": "Check icon 3 (custom)",
                           "settings": {
-                            "icon": "check_box",
-                            "width": 16,
-                            "link": "",
-                            "open_in_new_tab": false
+                            "text": "<p>✓</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "custom",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1.125rem",
+                            "line_height": "tight",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "{{TEXT_ALERTA}}",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
                           },
                           "blocks": {}
                         }
@@ -703,13 +748,28 @@
                       },
                       "blocks": {
                         "icon_zzAGQ3": {
-                          "type": "icon",
-                          "name": "t:names.icon",
+                          "type": "text",
+                          "name": "Check icon 4 (custom)",
                           "settings": {
-                            "icon": "check_box",
-                            "width": 16,
-                            "link": "",
-                            "open_in_new_tab": false
+                            "text": "<p>✓</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "left",
+                            "type_preset": "custom",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1.125rem",
+                            "line_height": "tight",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "{{TEXT_ALERTA}}",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
                           },
                           "blocks": {}
                         }
@@ -2780,13 +2840,28 @@
                       },
                       "blocks": {
                         "icon_rX6hmP": {
-                          "type": "icon",
-                          "name": "t:names.icon",
+                          "type": "text",
+                          "name": "Check Ours 1 (custom)",
                           "settings": {
-                            "icon": "check_box",
-                            "width": 24,
-                            "link": "",
-                            "open_in_new_tab": false
+                            "text": "<p>✓</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "center",
+                            "type_preset": "custom",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1.5rem",
+                            "line_height": "tight",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "{{TEXT_DESTAQUE}}",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
                           },
                           "blocks": {}
                         }
@@ -3035,13 +3110,28 @@
                       },
                       "blocks": {
                         "icon_zMBLRa": {
-                          "type": "icon",
-                          "name": "t:names.icon",
+                          "type": "text",
+                          "name": "Check Ours 2 (custom)",
                           "settings": {
-                            "icon": "check_box",
-                            "width": 24,
-                            "link": "",
-                            "open_in_new_tab": false
+                            "text": "<p>✓</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "center",
+                            "type_preset": "custom",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1.5rem",
+                            "line_height": "tight",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "{{TEXT_DESTAQUE}}",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
                           },
                           "blocks": {}
                         }
@@ -3290,13 +3380,28 @@
                       },
                       "blocks": {
                         "icon_AtEPPq": {
-                          "type": "icon",
-                          "name": "t:names.icon",
+                          "type": "text",
+                          "name": "Check Ours 3 (custom)",
                           "settings": {
-                            "icon": "check_box",
-                            "width": 24,
-                            "link": "",
-                            "open_in_new_tab": false
+                            "text": "<p>✓</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "center",
+                            "type_preset": "custom",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1.5rem",
+                            "line_height": "tight",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "{{TEXT_DESTAQUE}}",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
                           },
                           "blocks": {}
                         }
@@ -3545,13 +3650,28 @@
                       },
                       "blocks": {
                         "icon_Gq4XUz": {
-                          "type": "icon",
-                          "name": "t:names.icon",
+                          "type": "text",
+                          "name": "Check Ours 4 (custom)",
                           "settings": {
-                            "icon": "check_box",
-                            "width": 24,
-                            "link": "",
-                            "open_in_new_tab": false
+                            "text": "<p>✓</p>",
+                            "width": "fit-content",
+                            "max_width": "normal",
+                            "alignment": "center",
+                            "type_preset": "custom",
+                            "font": "var(--font-body--family)",
+                            "font_size": "1.5rem",
+                            "line_height": "tight",
+                            "letter_spacing": "normal",
+                            "case": "none",
+                            "wrap": "pretty",
+                            "color": "{{TEXT_DESTAQUE}}",
+                            "background": false,
+                            "background_color": "#00000026",
+                            "corner_radius": 0,
+                            "padding-block-start": 0,
+                            "padding-block-end": 0,
+                            "padding-inline-start": 0,
+                            "padding-inline-end": 0
                           },
                           "blocks": {}
                         }
