@@ -1971,7 +1971,7 @@
       },
       "custom_css": [
         ".product-information__media { background-color: {{BG_FUNDO_PRINCIPAL}} !important; align-self: stretch !important; min-height: 100% !important; }",
-        "[class*=\"product-information__\"] { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
+        "&, & > *, section, [class*=\"product-information__\"] { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
         "details { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
         "details *, .icon-block__media, .icon-block__media * { color: {{TEXT_FUNDO_PRINCIPAL}} !important; fill: {{TEXT_FUNDO_PRINCIPAL}} !important; }"
       ]
