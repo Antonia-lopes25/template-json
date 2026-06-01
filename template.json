@@ -1,3 +1,19 @@
+/*
+ * ============================================================
+ * TEMPLATE — IA DEFINE AS CORES (HEX) — VERSAO FINAL
+ * ============================================================
+ * Tipografia: preset 'custom' (IA 100%).
+ *
+ * custom_css cirurgico para icones:
+ *   .icon-block__media (classe BEM dos icones do Horizon) +
+ *   .icon-block__media * recebem color + fill = TEXT_FUNDO_PRINCIPAL
+ * Pega os 3 icones dos badges (truck/check_box/return) sem afetar
+ * outros SVGs (quantity selector, variant picker, etc).
+ *
+ * Combinado com details (accordion) e product-information__*
+ * (background da section).
+ * ============================================================
+ */
 {
   "sections": {
     "main": {
@@ -1971,9 +1987,9 @@
       },
       "custom_css": [
         ".product-information__media { background-color: {{BG_FUNDO_PRINCIPAL}} !important; align-self: stretch !important; min-height: 100% !important; }",
-        ".product-information, [class*=\"product-information__\"] { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
-        "details, details summary { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
-        "details *, details summary * { color: {{TEXT_FUNDO_PRINCIPAL}} !important; }"
+        "[class*=\"product-information__\"] { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
+        "details { background-color: {{BG_FUNDO_PRINCIPAL}} !important; }",
+        "details *, .icon-block__media, .icon-block__media * { color: {{TEXT_FUNDO_PRINCIPAL}} !important; fill: {{TEXT_FUNDO_PRINCIPAL}} !important; }"
       ]
     },
     "marquee_jMrcQw": {
